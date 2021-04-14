@@ -132,7 +132,7 @@ class _HomePageState extends State<HomePage> {
       } else if (opp == "*") {
         res = (first * second).toString();
       } else if (opp == "/") {
-        res = (first / second).toString();
+        res = (first / second).toInt().toString();
       }
     } else {
       res = text + btntext;
